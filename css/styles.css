@@ -1,0 +1,96 @@
+/**	font-family: 'Roboto Condensed', sans-serif; **/
+body {
+font-family: 'Cinzel', serif;
+	background-image: url("../images/background.png");
+	background-attachment: fixed;
+}
+
+
+
+nav {
+	width: 103.8%;
+	border-bottom: 1.2px solid lightgrey;
+	height: 42px;
+	margin-left: -40px;
+	text-align: center;
+	color: grey;
+	font-size: 5mm;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+	color: grey;
+	text-decoration: none;
+	padding-left: 45px;
+	padding-right: 45px;
+
+}
+
+li {
+	display: inline;	
+}
+
+#banner {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 55px;
+}
+
+#hr {
+	width: 103.8%;
+	border-top: 1px solid lightgrey;
+	margin-left: -40px;
+}
+
+#craft {
+	color: grey;
+	text-align: center;
+	font-size: 8mm;
+}
+
+#sub {
+	text-align: center;
+	font-size: 6mm;
+	color: darkgrey;
+}
+
+#container {
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 900px;
+	margin-top: 40px;
+}
+.img {
+	float: right;
+	border-radius: 10px;
+	padding: .5%;
+}
+
+#five {
+	margin-top: -180px;
+}
+#four {
+	margin-top: -90px;
+}
+
+#eight {
+	margin-top: -69px;
+}
+
+#seven {
+	margin-top: -79px;
+}
+
+footer {
+	width: 103.8%;
+	margin-left: -40px;
+	margin-top: 275px;
+	border-top: 1px solid lightgrey;
+	height: 150px;
+}
