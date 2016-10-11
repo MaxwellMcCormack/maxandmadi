@@ -67,25 +67,13 @@ li {
 	margin-top: 40px;
 }
 .img {
-	float: right;
 	border-radius: 10px;
 	padding: .5%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-#five {
-	margin-top: -180px;
-}
-#four {
-	margin-top: -90px;
-}
-
-#eight {
-	margin-top: -69px;
-}
-
-#seven {
-	margin-top: -79px;
-}
 
 footer {
 	width: 103.8%;
@@ -93,4 +81,120 @@ footer {
 	margin-top: 275px;
 	border-top: 1px solid lightgrey;
 	height: 150px;
+}
+
+#first {
+	width: 33%;
+
+	height: 100px;
+	float: right;
+}
+
+#second {
+	width: 33%;
+
+	height: 100px;
+	float:right;
+}
+
+#third {
+	width: 33%;
+	height: 100px;
+	float:right;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+nav {
+	width: 105%;
+}
+
+#hr {
+	width: 105%;
+	margin-left: -40px;
+}
+
+footer {
+	margin-top: -50px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+#container {
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+nav {
+	width: 106.3%;
+}
+
+#hr {
+	width: 106.3%;
+	margin-left: -40px;
+}
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+nav {
+	width: 108.4%;
+}
+
+#hr {
+	width: 108.4%;
+	margin-left: -40px;
+}
+
+#container {
+		margin-bottom: -200px;
+}
+
+}
+
+@media screen and (max-width: 521px) {
+
+
+nav {
+border-bottom: white;
+font-size: 9mm;
+margin-bottom: 120px;
+}
+
+#hr {
+	width: 110%;
+	margin-left: -40px;
+}
+
+li {
+	display: list-item;	
+}
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+
+#hr {
+	width: 112%;
+	margin-left: -40px;
+}
+
 }
