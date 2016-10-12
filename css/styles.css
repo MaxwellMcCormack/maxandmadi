@@ -175,6 +175,21 @@ margin-bottom: 120px;
 li {
 	display: list-item;	
 }
+
+#first {
+	width: 100%;
+}
+
+#second {
+	width: 100%;
+	margin-top: 3150px;
+}
+
+#third {
+	width: 100%;
+	margin-top: 2300px;
+}
+
 }
 
 
@@ -204,6 +219,7 @@ nav {
 	width: 100%;
 	margin-top: 2470px;
 }
+
 }
 
 @media screen and (max-width: 600px) {
