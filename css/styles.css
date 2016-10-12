@@ -166,6 +166,15 @@ footer {
 	margin-bottom: 0px;
 }
 
+nav {
+border-bottom: white;
+font-size: 9mm;
+margin-bottom: 120px;
+}
+
+li {
+	display: list-item;	
+}
 }
 
 
@@ -182,8 +191,19 @@ nav {
 	margin-left: -40px;
 }
 
+#first {
+	width: 100%;
+}
 
+#second {
+	width: 100%;
+	margin-top: 2380px;
+}
 
+#third {
+	width: 100%;
+	margin-top: 2470px;
+}
 }
 
 @media screen and (max-width: 600px) {
@@ -198,20 +218,12 @@ nav {
 	margin-left: -40px;
 }
 
-#container {
-		margin-bottom: -200px;
-}
 
 }
 
 @media screen and (max-width: 521px) {
 
 
-nav {
-border-bottom: white;
-font-size: 9mm;
-margin-bottom: 120px;
-}
 
 #hr {
 	width: 110%;
