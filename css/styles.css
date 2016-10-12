@@ -168,7 +168,7 @@ footer {
 
 nav {
 border-bottom: white;
-font-size: 9mm;
+font-size: 11mm;
 margin-bottom: 120px;
 }
 
@@ -182,12 +182,21 @@ li {
 
 #second {
 	width: 100%;
-	margin-top: 3150px;
+	margin-top: 3525px;
 }
 
 #third {
 	width: 100%;
-	margin-top: 2300px;
+	margin-top: 3670px;
+}
+
+.more {
+	font-size: 12mm;
+	width: 99.8%;
+}
+
+.price {
+	font-size: 13mm;
 }
 
 }
@@ -219,6 +228,9 @@ nav {
 	width: 100%;
 	margin-top: 2470px;
 }
+
+
+
 
 }
 
