@@ -48,6 +48,7 @@ li {
 }
 
 #craft {
+	margin-bottom: -10px;
 	color: grey;
 	text-align: center;
 	font-size: 8mm;
@@ -138,6 +139,68 @@ hr {
 }
 
 
+#firstt {
+	width: 33%;
+	height: 100px;
+	float: right;
+}
+
+#secondd {
+	width: 33%;
+
+	height: 100px;
+	float:right;
+}
+
+#thirdd {
+	width: 33%;
+	height: 100px;
+	float:right;
+}
+
+.img2 {
+	border-radius: 10px 10px 10px 10px;
+}
+
+#bot {
+	margin-top: 245px;
+}
+
+#top {
+	margin-bottom: 14px;
+}
+
+#cont {
+	margin-top: 50px;
+	width: 95%;
+	font-size: 7mm;
+	color: grey;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#cont2 {
+	margin-top: 50px;
+	width: 60%;
+	font-size: 6mm;
+	color: grey;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	text-decoration: none;
+	color: darkgrey;
+	font-weight: bold;
+}
+
+
+
+
+
+
 
 
 
@@ -147,6 +210,17 @@ hr {
 
 @media screen and (max-width: 1000px) {
 
+#top {
+	display: none;
+}
+
+#bot {
+	display: none;
+}
+
+#cont {
+	margin-top: -10px;
+}
 
 nav {
 	width: 105%;
@@ -199,12 +273,26 @@ li {
 	font-size: 13mm;
 }
 
+
+#firstt {
+	display: none;
 }
+
+#secondd {
+	display: none;
+}
+
+#thirdd {
+	display: none;
+}
+
 
 
 @media screen and (max-width: 800px) {
 
-
+li {
+	display: list-item;	
+}
 
 nav {
 	width: 106.3%;
@@ -221,14 +309,13 @@ nav {
 
 #second {
 	width: 100%;
-	margin-top: 2380px;
+	margin-top: 2950px;
 }
 
 #third {
 	width: 100%;
 	margin-top: 2470px;
 }
-
 
 
 
