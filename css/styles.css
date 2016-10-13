@@ -210,6 +210,11 @@ a {
 
 @media screen and (max-width: 1000px) {
 
+
+#banner {
+	margin-top: 180px;
+}
+
 #top {
 	display: none;
 }
@@ -242,7 +247,7 @@ footer {
 
 nav {
 border-bottom: white;
-font-size: 11mm;
+font-size: 16mm;
 margin-bottom: 120px;
 }
 
